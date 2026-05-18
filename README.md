@@ -75,7 +75,7 @@ python main.py
 - Run queries against `banking_db`
 
 ---
-
+## Project Structure
 ```
 ecommerce_etl_pipeline/
 ├── data/
