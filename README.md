@@ -76,7 +76,21 @@ python main.py
 
 ---
 
-##  Project Structure
+```
+ecommerce_etl_pipeline/
+├── data/
+│   ├── raw/           ← Raw CSV files (not included in repo)
+│   └── processed/     ← Processed data
+├── src/
+│   ├── extract.py     ← Read CSV into DataFrame
+│   ├── transform.py   ← Clean and transform data
+│   └── load.py        ← Load into PostgreSQL
+├── sql/
+│   └── analysis_queries.sql  ← SQL analysis queries
+├── create_data.py     ← Generate sample dataset
+├── main.py            ← Run full ETL pipeline
+└── requirements.txt
+```
 ---
 
 ##  Author
